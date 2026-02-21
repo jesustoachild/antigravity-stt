@@ -8,7 +8,7 @@
 ## English
 
 ### 1. Project Introduction
-This is a Speech-to-Text (STT) plugin designed for Home Assistant (HA). It leverages **Antigravity Tools** and the **Gemini 3 Flash API** for transcription. It addresses class name compatibility in HA 2024.11+ and handles protocol adaptation for raw PCM streams.
+This is a Speech-to-Text (STT) plugin designed for Home Assistant (HA). This plugin can be used directly with the Home Assistant Assist. It leverages **Antigravity Tools** and the **Gemini 3 Flash API** for transcription.
 
 Tested with [Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager).
 
@@ -42,7 +42,7 @@ Supports two payload modes:
 ## 简体中文
 
 ### 1. 项目简介
-本项目是一个为 Home Assistant (HA) 设计的语音识别 (STT) 插件，旨在通过 **Antigravity Tools** 和 **Gemini 3 Flash API** 实现语音指令转录。它解决了 HA 2024.11+ 版本中的类名兼容性问题及裸 PCM 流的协议适配问题。
+本项目是一个为 Home Assistant (HA) 设计的语音识别 (STT) 插件，本插件可以在 Home Assistant 语音助手中直接使用。它旨在通过 **Antigravity Tools** 和 **Gemini 3 Flash API** 实现语音指令转录。
 
 目前已通过 [Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) 后端集成的完整测试。
 
