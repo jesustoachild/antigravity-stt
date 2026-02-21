@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Antigravity STT",
+        "description": "Enter your Gemini or OpenAI compatible API details.",
+        "data": {
+          "url": "API URL",
+          "api_key": "API Key",
+          "model": "Model",
+          "language": "Language"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Antigravity STT Options",
+        "data": {
+          "model": "Model",
+          "language": "Language"
+        }
+      }
+    }
+  },
+  "error": {
+    "cannot_connect": "Failed to connect",
+    "invalid_auth": "Invalid or missing API Key",
+    "invalid_url": "Please enter a valid URL",
+    "unknown": "Unknown error"
+  },
+  "abort": {
+    "already_configured": "Already configured"
+  }
+}

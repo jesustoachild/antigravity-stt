@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "配置 Antigravity 语音转文字",
+        "description": "请输入您的 Gemini 或 OpenAI 兼容接口信息。",
+        "data": {
+          "url": "API 接口地址 (URL)",
+          "api_key": "API 密钥 (API Key)",
+          "model": "模型名称 (Model)",
+          "language": "识别语言"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Antigravity STT 选项",
+        "data": {
+          "model": "模型",
+          "language": "识别语言"
+        }
+      }
+    }
+  },
+  "error": {
+    "cannot_connect": "连接失败，请检查网络和 URL",
+    "invalid_auth": "身份验证无效 (API Key 错误)",
+    "invalid_url": "请输入有效的 API 地址",
+    "unknown": "发生未知错误"
+  },
+  "abort": {
+    "already_configured": "该服务已配置"
+  }
+}

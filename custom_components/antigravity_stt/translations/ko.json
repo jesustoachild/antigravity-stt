@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Antigravity STT 구성",
+        "description": "Gemini 또는 OpenAI 호환 API 정보를 입력하세요.",
+        "data": {
+          "url": "API URL",
+          "api_key": "API 키",
+          "model": "모델",
+          "language": "언어"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Antigravity STT 옵션",
+        "data": {
+          "model": "모델",
+          "language": "언어"
+        }
+      }
+    }
+  },
+  "error": {
+    "cannot_connect": "연결 실패",
+    "invalid_auth": "API 키가 잘못되었습니다",
+    "invalid_url": "유효한 URL을 입력하세요",
+    "unknown": "알 수 없는 오류"
+  },
+  "abort": {
+    "already_configured": "이미 구성됨"
+  }
+}

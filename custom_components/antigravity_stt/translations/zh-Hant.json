@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "配置 Antigravity 語音轉文字",
+        "description": "請輸入您的 Gemini 或 OpenAI 相容介面資訊。",
+        "data": {
+          "url": "API 介面網址 (URL)",
+          "api_key": "API 金鑰 (API Key)",
+          "model": "模型名稱 (Model)",
+          "language": "辨識語言"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Antigravity STT 選項",
+        "data": {
+          "model": "模型",
+          "language": "辨識語言"
+        }
+      }
+    }
+  },
+  "error": {
+    "cannot_connect": "連線失敗，請檢查網路和 URL",
+    "invalid_auth": "驗證無效 (API Key 錯誤)",
+    "invalid_url": "請輸入有效的 API 網址",
+    "unknown": "發生未知錯誤"
+  },
+  "abort": {
+    "already_configured": "此服務已配置"
+  }
+}
