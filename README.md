@@ -32,8 +32,8 @@ Supports two payload modes:
 - **API Key**: Your API Key. (If the URL points to an Antigravity proxy server, please obtain the key from the Antigravity proxy server settings page.)
 - **Model**: `gemini-3-flash` (Recommended).
 
-### 5. License & Credits
-- **Copyright**: © 2026 ChenLi
+### 5. License
+- **License**: Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Strictly prohibited for any commercial purposes.
 - **Acknowledgments**: Thanks to the [Home Assistant](https://github.com/home-assistant/core) community and relevant open-source projects for their reference and support.
 
 ---
@@ -66,6 +66,6 @@ HA Assist 引擎发送的是 **16000Hz / 16-bit / Mono** 的裸采样数据（Ra
 - **API Key**: 您的 API 密钥（如果 URL 是指向 Antigravity 反代服务器，请在 Antigravity 反代服务器的设置页面获取密钥）。
 - **Model**: `gemini-3-flash` (推荐)。
 
-### 5. 版权与致谢
-- **版权声明**: © 2026 ChenLi
+### 5. 版权许可
+- **版权许可**: 基于 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可，严禁任何形式的商业行为。
 - **致谢**: 感谢 [Home Assistant](https://github.com/home-assistant/core) 开源社区及相关参考项目提供的技术支持与灵感。
