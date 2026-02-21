@@ -29,12 +29,12 @@ Supports two payload modes:
 ### 4. Configuration
 - **URL**: 
   - For Gateways: `http://<Antigravity_Tools_IP>:<Port>/v1/chat/completions`
-  - For Google Native: `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`
-- **API Key**: Your API Key.
+- **API Key**: Your API Key. (If the URL points to an Antigravity proxy server, please obtain the key from the Antigravity proxy server settings page.)
 - **Model**: `gemini-3-flash` (Recommended).
 
-### 5. Credits
-Designed by Antigravity for **ChenLi**, optimized for smart home voice commands (Temperature=0.0).
+### 5. License & Credits
+- **Copyright**: © 2026 ChenLi
+- **Acknowledgments**: Thanks to the [Home Assistant](https://github.com/home-assistant/core) community and relevant open-source projects for their reference and support.
 
 ---
 
@@ -63,9 +63,9 @@ HA Assist 引擎发送的是 **16000Hz / 16-bit / Mono** 的裸采样数据（Ra
 ### 4. 配置参数
 - **URL**: 
   - 如果使用中转网关：填写 `http://<Antigravity_Tools_IP>:<Port>/v1/chat/completions`
-  - 如果使用原生 Google 路径：填写 `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`
-- **API Key**: 您的 API 密钥。
+- **API Key**: 您的 API 密钥（如果 URL 是指向 Antigravity 反代服务器，请在 Antigravity 反代服务器的设置页面获取密钥）。
 - **Model**: `gemini-3-flash` (推荐)。
 
-### 5. 开发说明
-本项目由 ChenLi 提出并由 Antigravity 设计，主要针对中文家居控制指令进行了 Prompt 优化（Temperature=0.0）。
+### 5. 版权与致谢
+- **版权声明**: © 2026 ChenLi
+- **致谢**: 感谢 [Home Assistant](https://github.com/home-assistant/core) 开源社区及相关参考项目提供的技术支持与灵感。
