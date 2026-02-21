@@ -1,4 +1,4 @@
-# Antigravity STT v0.1
+# Antigravity STT v0.1 for Home Assistant
 
 [English](#english) | [简体中文](#简体中文)
 
