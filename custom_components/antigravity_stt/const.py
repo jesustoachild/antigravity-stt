@@ -11,7 +11,7 @@ DEFAULT_MODEL = "gemini-3-flash"
 DEFAULT_URL = "http://<Antigravity_Tools_IP>:<Port>/v1/chat/completions"
 DEFAULT_LANGUAGE = "auto"
 
-SUPPORTED_STT_LANGUAGES = [
+SUPPORTED_LANGUAGES = [
     "auto",
     "zh-CN",
     "zh-TW",
