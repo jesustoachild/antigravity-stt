@@ -1,4 +1,4 @@
-# Antigravity STT for Home Assistant
+# Antigravity Speech-To-Text for Home Assistant
 
 [English](#english) | [简体中文](#简体中文)
 
