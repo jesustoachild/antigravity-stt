@@ -1,9 +1,9 @@
 {
   "domain": "antigravity_stt",
   "name": "Antigravity STT",
-  "codeowners": ["@chenli"],
+  "codeowners": ["@jesustoachild"],
   "config_flow": true,
-  "documentation": "https://github.com/lbjlaq/Antigravity-Manager",
+  "documentation": "https://github.com/jesustoachild/antigravity-stt",
   "iot_class": "cloud_polling",
   "version": "0.1.0",
   "requirements": []
