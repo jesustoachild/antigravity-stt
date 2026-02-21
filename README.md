@@ -1,7 +1,9 @@
 # Antigravity STT v0.1 - 技术设计与安装手册
 
 ## 1. 项目简介
-本项目是一个为 Home Assistant (HA) 设计的高性能语音识别 (STT) 插件，旨在通过 Gemini 3 Flash 实现极速 (<2s) 的语音指令转录。它解决了 HA 2024.11+ 版本中的类名兼容性问题及裸 PCM 流的协议适配问题。
+本项目是一个为 Home Assistant (HA) 设计的语音识别 (STT) 插件，旨在通过 Antigravity Tools 和 Gemini 3 Flash API 实现语音指令转录。它解决了 HA 2024.11+ 版本中的类名兼容性问题及裸 PCM 流的协议适配问题。
+
+目前已通过 [Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) 后端集成的完整测试。
 
 ## 2. 技术设计 (Architecture)
 ### 2.1 音频处理 (The PCM-to-WAV Bridge)
@@ -20,7 +22,7 @@ V10 版本支持两种 Payload 模式：
 
 ## 4. 配置参数
 - **URL**: 
-  - 如果使用中转网关：填写 `https://your-gateway.com/v1/chat/completions`
+  - 如果使用中转网关：填写 `http://<Antigravity_Tools_IP>:<Port>/v1/chat/completions`
   - 如果使用原生 Google 路径：填写 `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent`
 - **API Key**: 您的 API 密钥。
 - **Model**: `gemini-3-flash` (推荐)。
