@@ -39,7 +39,7 @@ async def async_setup_entry(
     async_add_entities([AntigravitySTTEntity(hass, config_entry)])
 
 class AntigravitySTTEntity(SpeechToTextEntity):
-    """The Antigravity STT entity V12 (Language + i18n)."""
+    """The Antigravity STT entity v0.1 (Language + i18n)."""
 
     def __init__(self, hass: HomeAssistant, entry: ConfigEntry) -> None:
         """Initialize the provider."""
@@ -97,7 +97,7 @@ class AntigravitySTTEntity(SpeechToTextEntity):
         self, metadata: SpeechMetadata, stream: AsyncIterable[bytes]
     ) -> SpeechResult:
         """Process audio stream with enhanced structure checking."""
-        _LOGGER.debug("Antigravity STT V12 processing...")
+        _LOGGER.debug("Antigravity STT v0.1 processing...")
         raw_audio = b""
         try:
             async for chunk in stream:
@@ -190,7 +190,7 @@ class AntigravitySTTEntity(SpeechToTextEntity):
 
                 # 结果清理
                 text = (text or "").replace("。", "").replace(".", "").replace("\"", "").replace("'", "").strip()
-                _LOGGER.info("STT V12 Result: %s", text)
+                _LOGGER.info("STT v0.1 Result: %s", text)
                 return SpeechResult(text, SpeechResultState.SUCCESS)
 
         except Exception as err:
